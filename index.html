@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#100d20">
+  <title>یه حرف از ته دلم</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain"></div>
+  <div class="stars" aria-hidden="true"></div>
+  <main class="shell">
+    <header class="top">
+      <span class="tiny-heart">♥</span>
+      <span>یک حرفِ واقعی</span>
+      <span class="tiny-heart">♥</span>
+    </header>
+
+    <section class="hero" id="intro">
+      <div class="orb orb-one"></div><div class="orb orb-two"></div>
+      <p class="eyebrow">برای مهدیس</p>
+      <h1>یه چیزی هست<br><em>که دلم می‌خواد بدونی...</em></h1>
+      <p class="lead">نه برای اینکه جوابت رو عوض کنم؛ فقط برای اینکه این بار، قشنگ و صادقانه بگمش.</p>
+      <button class="primary" id="startBtn">بگو ببینم چی تو دلته <span>←</span></button>
+      <div class="scroll-note">آروم بیا پایین · عجله‌ای نیست</div>
+    </section>
+
+    <section class="letter section">
+      <div class="section-mark">01 / از من به تو</div>
+      <div class="letter-card">
+        <div class="spark">✦</div>
+        <p>مهدیس،</p>
+        <p>شاید خودت فهمیده باشی، شاید هم نه؛ ولی حسی که بهت دارم یه شوخیِ لحظه‌ای یا یه هیجان زودگذر نیست.</p>
+        <p>از حرف زدن باهات، از شوخی‌هامون و از همین لحظه‌های معمولی خوشم میاد. تو برام آدم خاصی شدی و دلم خواست اینو بدونی.</p>
+        <p>نمی‌خوام با این حرف‌ها تحت فشارت بذارم یا ازت جواب فوری بگیرم. فقط می‌خوام بدونی احساسم واقعیه.</p>
+        <div class="signature">— مهرزاد</div>
+      </div>
+    </section>
+
+    <section class="question section" id="question">
+      <div class="section-mark">02 / یه سؤال کوچیک</div>
+      <p class="question-kicker">حالا که حرف دلم رو می‌دونی...</p>
+      <h2>دوست داری یه فرصت به<br><em>ما</em> بدیم؟</h2>
+      <p class="sub">اگه تو هم دوست داشتی، خوشحال می‌شم پارتنرت باشم و با هم آروم‌آروم ببینیم چی می‌شه.</p>
+      <p class="gentle">لازم نیست همین الان جواب بدی. هر جوابی داشته باشی، بهش احترام می‌ذارم؛ حتی اگه جوابِ تو «نه» باشه یا هنوز مطمئن نباشی.</p>
+      <div class="actions">
+        <button class="yes" id="yesBtn">آره، دوست دارم 💗</button>
+        <button class="later" id="laterBtn">بذار فکر کنم</button>
+        <button class="no" id="noBtn">نه، چنین حسی ندارم</button>
+      </div>
+      <p class="tiny-note">هیچ انتخابی از قبل تعیین نشده؛ راحت و صادقانه انتخاب کن.</p>
+    </section>
+
+    <footer>ساخته‌شده با کلی فکر و کمی استرس ♥</footer>
+  </main>
+
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-card">
+      <button class="close" id="closeModal" aria-label="بستن">×</button>
+      <div class="modal-icon" id="modalIcon">💗</div>
+      <h2 id="modalTitle">ممنون که صادقانه گفتی</h2>
+      <p id="modalText">هر جوابی که داشته باشی، برام مهمه که خودت راحت باشی.</p>
+      <button class="secret-trigger" id="secretTrigger" hidden>یه پیام مخفی برای خانوم میویی 🐱</button>
+      <p class="secret-message" id="secretMessage" hidden>خانوم میویی، حتی اگه جوابت نه باشه، هنوزم برام آدم خاصی هستی. 🐱🤍</p>
+      <button class="primary small" id="modalOk">باشه</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
